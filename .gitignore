@@ -1,0 +1,38 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# UV and Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.python-version.local
+.coverage
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Local learning data
+.chroma/
+chroma_db/
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
+
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
+
+# MCP
+.mcp.json
+.codex/config.toml 
