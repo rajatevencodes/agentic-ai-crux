@@ -10,10 +10,9 @@
 ## Notebook-first workflow rule
 
 - Keep implementation and testing notebook-only unless the user explicitly requests source modules.
-- Import reusable environment loading, warning suppression, and logging configuration from `notebooks/common.py`.
+- Import reusable functions, environment loading, warning suppression, and logging configuration from `notebooks/common.py`.
 - Create each `OpenAI` client explicitly in the notebook so its API key source, base URL, model ID, and request settings remain visible.
 - After running the common setup cell, put every workflow step in its own cell with explicit sample input so it can be tested and rerun independently.
-- Print clearly labeled `INPUT`, `OUTPUT`, `STATE`, and `INTERMEDIATE RESULTS` values.
 - Keep cells small; do not hide several state transitions behind one notebook call.
 - Suppress warnings and set third-party loggers to `WARNING` or `ERROR` so output remains focused.
 

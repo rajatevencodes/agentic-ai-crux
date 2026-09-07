@@ -10,6 +10,7 @@ dependencies = [
     { name = "ipykernel" },
     { name = "jupyterlab" },
     { name = "openai" },
+    { name = "pydantic" },
     { name = "python-dotenv" },
 ]
 
@@ -18,6 +19,7 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=7.0.0" },
     { name = "jupyterlab", specifier = ">=4.4.0" },
     { name = "openai", specifier = ">=3.8.0" },
+    { name = "pydantic", specifier = ">=2.13.5" },
     { name = "python-dotenv", specifier = ">=1.1.0" },
 ]
 

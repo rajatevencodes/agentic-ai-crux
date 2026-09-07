@@ -10,5 +10,3 @@ The goal is to understand each workflow from first principles by building it dir
 - Keep model calls, tools, state, and intermediate results explicit.
 - Prefer the OpenAI SDK over orchestration frameworks.
 - Use notebooks so every step can be inspected and rerun independently.
-
-Keep API keys in `.env` and never commit them.
