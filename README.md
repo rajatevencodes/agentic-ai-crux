@@ -4,8 +4,6 @@ A focused, notebook-first repository for learning and revising the essential ide
 
 The goal is to understand each workflow from first principles by building it directly with the official OpenAI Python SDK. OpenRouter provides access to models through its OpenAI-compatible API.
 
-Start in [`notebooks/starter.ipynb`](notebooks/starter.ipynb) and evolve the repository one concept at a time.
-
 ## Core principles
 
 - Learn by building small, observable workflows.
