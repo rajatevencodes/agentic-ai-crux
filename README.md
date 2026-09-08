@@ -4,6 +4,8 @@ A focused, notebook-first repository for learning and revising the essential ide
 
 The goal is to understand each workflow from first principles by building it directly with the official OpenAI Python SDK. OpenRouter provides access to models through its OpenAI-compatible API.
 
+Notebook helpers live in [notebooks/common/](notebooks/common/README.md). That guide maps each file to its job. JSON examples sit beside the functions they explain.
+
 ## Core principles
 
 - Learn by building small, observable workflows.
